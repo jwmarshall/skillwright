@@ -1,0 +1,14 @@
+{
+  "name": "skillwright",
+  "version": "0.1.0",
+  "description": "Portable Agent Skills authoring and review tools.",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "skillwright": "./bin/skillwright-lint.mjs" },
+  "scripts": {
+    "lint": "node ./bin/skillwright-lint.mjs",
+    "test": "node --test"
+  },
+  "keywords": ["agent-skills", "claude-code", "codex", "gemini-cli", "opencode", "cursor", "skill-authoring", "skill-review"],
+  "pi": { "skills": ["./skills/pi"] }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "skillwright",
+  "version": "0.1.0",
+  "description": "Author and review portable Agent Skills with explicit authority, input, output, and compatibility contracts.",
+  "author": { "name": "Jonathon W. Marshall" },
+  "license": "MIT",
+  "keywords": ["agent-skills", "authoring", "review", "linting"]
+}
